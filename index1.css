@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider-201 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.slider {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  transform: translateX(-100%);
+}
+.img-302 {
+  margin: 2cm 2cm 0;
+}
+.img-304 {
+  margin: 1.5rem 0;
+  font-size: 30px;
+  line-height: 2rem;
+}
+.img-305 {
+  line-height: 1.6rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 2rem;
+}
+.img-306 {
+  margin: 1.5rem 0;
+  font-size: 30px;
+  line-height: 2rem;
+}
+.img-307 {
+  line-height: 1.6rem;
+  letter-spacing: 0.3px;
+  margin-bottom: 2rem;
+}
+.video {
+  margin: 2cm 2cm 0;
+}
+.video-h {
+  margin: 2rem 0;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(2, 2, 65);
+}
+.video-104 {
+  left: 5rem;
+}
+.sofe-103 {
+  width: 100%;
+  height: 500px;
+}
+.sofe-cleaning {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: #fff;
+  font-size: 30px;
+}
+.sofe-202 {
+  margin: 2cm 2.5cm;
+}
+.sofa-204 {
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  color: rgb(4, 4, 97);
+}
+.sofa-205 {
+  line-height: 1.5rem;
+}
+.sofa-206 {
+  font-size: 30px;
+  margin: 2rem 0 1rem 0;
+  line-height: 2rem;
+  text-align: center;
+  color: rgb(4, 4, 97);
+}
+.sofa-207 {
+  line-height: 1.5rem;
+}
+.sofa-208 {
+  font-size: 30px;
+  margin: 2rem 0 1rem 0;
+  line-height: 2rem;
+  text-align: center;
+  color: rgb(4, 4, 97);
+}
+.sofa-209 {
+  line-height: 1.5rem;
+}
+.sofa-209 span {
+  font-size: 10px;
+  font-weight: 600;
+  padding-right: 10px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.sofa-302 {
+  margin: 0 1cm;
+}
+.sofa-304 {
+  margin: 2rem 3rem;
+  color: rgba(228, 6, 6, 0.911);
+  font-size: 25px;
+}
+.sofa-308 {
+  padding-left: 6.5rem;
+}
+.sofa-309 {
+  padding-left: 8cm;
+}
+.sofa-401 {
+  margin: 2cm;
+  background-color: #ecf4fe;
+}
+.sofa-402 {
+  padding: 2cm;
+}
+.sofa-411 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sofa-400 {
+  font-size: 30px;
+  text-align: center;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+.sofa-404 {
+  padding-bottom: 10px;
+}
+.sofa-404 label {
+  font-size: 20px;
+}
+.sofa-404 input {
+  padding: 10px 6cm;
+  outline: none;
+  border: #fff;
+  border-radius: 5px;
+}
+.sofa-405 label{
+  font-size: 20px;
+}
+.sofa-405 input{
+  padding: 10px 8cm;
+  outline: none;
+  border: #fff;
+  border-radius: 5px;
+  bottom: 5px;
+}
+.sofa-406 label{
+font-size:20px ;
+}
+.sofa-406 input{
+  padding: 10px 6cm;
+  outline: none;
+  border: #fff;
+  border-radius: 5px;
+  bottom: 5px;
+}
+.sofa-406{
+  margin: 10px;
+}
+.sofa-408{
+  padding: 5px 7cm;
+  margin: 10px 0;
+}
+.sofa-410{
+  padding: 5px 7cm;
+  margin: 10px 0;
+  outline: none;  
+}
+.sofa-412{
+ outline: none;
+ padding: 10px 2rem; 
+ border: none;
+ border-radius: 5px;
+ background-color: #4A94F7;
+ font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and(max-width:480) {
+  .video-102 {
+    width: 300px;
+  }
+}

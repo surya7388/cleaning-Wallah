@@ -1,0 +1,640 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.nav-element-1010 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(2, 2, 95);
+  cursor: pointer;
+}
+
+.icon-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.time-icon {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+.sing-up {
+  color: white;
+}
+.sing-up:hover {
+  color: yellow;
+}
+.header-element-1101 {
+  width: 100%;
+}
+.header-element-1102 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;   
+}
+.ul-element-1104 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  gap: 40px;
+  color: black;
+}
+.ul-element-1104 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.ul-element-1104 a:hover{
+    color: rgb(60, 236, 60);
+}
+.ul-element-1105 {
+  display: none;
+}
+.ul-element-1104 li:hover .ul-element-1105 
+   {
+  position: absolute;
+  font-weight: 600;
+  list-style: none;
+  margin-top: 5px;
+  background-color: aliceblue;
+  padding: 10px;
+  display: block;
+  z-index: 1000;
+}
+.ul-element-1105 li{
+  padding-top: 10px;
+  color: rgb(30, 235, 30);
+}
+
+.home-element-1201{
+  width: 100%;
+  height: 500px;
+ position: relative;
+}
+.home-element-1202{
+  position: absolute;
+  font-size: 40px;
+  top:50% ;
+  left: 30%;
+  color: white;
+}
+.element-2201{
+margin: 0px 4cm;
+}
+.element-2202{
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing: .4px;
+}
+.element-2203{
+  line-height: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 2cm;
+  letter-spacing: .4px;
+}
+.element-2205{
+  text-align: center;
+  font-size: 25px;
+  padding: 0px;
+  letter-spacing: .4px;
+}
+
+.element-2204{
+width: 100%;
+background-color: rgb(235, 238, 231);
+box-shadow: 0px 0px 5px 10px rgba(235, 238, 231, 0.925) ;
+}
+.element-2204{
+  padding: 10px;
+
+}
+
+  .element-2205{
+    margin: 20px;
+    font-size: 30px;
+  }
+  .element-2204 p{
+    text-align: justify;
+    line-height: 1.39rem;
+  }
+.element-2206{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+  align-items: center;
+  justify-content: center;
+}
+.element-2207 p{
+ text-align: justify;
+ padding: 10px;
+ line-height: 1.7rem;
+
+}
+
+.element-2207 h2{
+  text-align: center;
+  padding-bottom: 15px;  
+}
+.element-2208{    
+   text-align: justify;
+}
+.element-2208 h2{
+  text-align: center;
+  padding-bottom: 15px;  
+}
+.element-2208 p{
+  padding: 10px;
+  line-height: 1.7rem;
+}
+.element-2210{
+background-color: rgb(235, 238, 231);
+box-shadow: 0px 0px 5px 5px 5px rgb(235, 238, 235);
+}
+.Deep-element-2211{
+  margin: 2.5cm;
+  margin-bottom: 2rem;
+}
+.Deep-element-2211 h2{
+  text-align: center;
+  font-size: 35px;
+  padding:20px ;
+
+}
+.Deep-Cleaning-element-2213{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+ 
+}
+.Deep-Cleaning-element-2214{
+  width: 350px;
+  position: relative;
+}
+.Deep-Cleaning-element-2214 img{
+  width: 350px;
+  border-radius: 5px;
+}
+.Deep-Cleaning-element-2214 a{
+  text-decoration: none;
+  font-size: 27px;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
+.Deep-Cleaning-element-2213:hover{
+  background-color: rgb(228, 241, 200);
+}
+.elemntor-2301{
+  margin-top: 2.5cm;
+}
+.elemntor-2302{
+  text-align: center;
+  font-size: 45px;
+}
+.house-cleaning-1004{
+  width: 100%;
+  height: 80vh;
+}
+.house-head-1102{
+  margin: 0 2cm;
+}
+.house-header-1103{
+  margin-top: 2cm;
+}
+.house-header-1104{
+  text-align: center;
+  font-size: 30px;
+}
+.house-header-1104:hover{
+  color: rgb(5, 5, 119);
+}
+
+.house-header-1105{
+ justify-content: center;
+}
+.house-header-1106{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+.house-header-1107{
+  padding: 15px 4.59cm;
+  border: 1px solid #eceaea;
+  font-size: 25px;
+  background-color: rgb(237 238 242);
+  
+}
+.house-header-1108{
+  padding: 12px 5cm;
+  text-align: center;  
+}
+.house-header-1109{
+  padding: 12px 5cm;
+  text-align: center; 
+}
+.house-header-1110{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+.contact{
+  margin: 2cm 3cm;
+  background-color: #ecebeb;
+}
+.contact-2201{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-2202{
+  padding: 30px;
+}
+.contact-2203{
+  text-align: center;
+  font-size: 38px;
+  line-height: 2.5cm;
+  letter-spacing: 1px;
+}
+.contact-us{
+  margin: 2cm 5cm;
+  background-color: rgb(226, 226, 240);
+  position: relative;
+  border-radius: 5px;
+}
+.contact-2001{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.contact-2004{
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 2rem;
+  letter-spacing: .3rem;
+  padding: 2rem 2rem;
+
+}
+.contact-address-2006{
+ display: flex;
+ justify-content: space-between;
+ padding: 2rem;
+}
+.contact-address-2006{
+  font-size: 30px;
+}
+.contact-address-2007{
+  display: flex;
+ justify-content: space-between;
+ padding: 2rem;
+ font-size: 25px;
+}
+.contact-address-2008{
+  display: flex;
+ justify-content: space-between;
+ padding: 2rem;
+  font-size: 30px;
+}
+.contact-form-2009{
+display: block;
+}
+.contact-form-2009{
+  padding: 1cm;
+}
+.form-2001 input{
+  border: none;
+  padding: 10px 2.5cm 10px 5px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 15px; 
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.form-2002{
+  text-align: center;
+  background-color: yellow;
+  padding: 10px;
+font-weight: 600;
+border-radius: 5px;
+
+}
+.form-2002:hover{
+  animation:button 2s  ;
+}
+@keyframes button{
+  0%{
+    background-color: blue;
+    left:0px;
+  }
+  20%{
+    background-color: blue;
+  }
+  40%{
+    background-color: blue;
+  }
+  50%{
+    background-color: blue;
+  }
+  60%{
+    background-color: blue;
+  }
+  80%{
+    background-color: blue;
+  }
+  100%{
+    background-color: blue;
+  }
+}
+.footer-add-2000{
+  background-color: rgb(5, 5, 99);
+ position: relative;
+}
+
+.footer-2301{  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2cm 4cm 0 4cm;
+  padding: 2cm 0;
+  gap: 4rem;
+}
+.footer-2302{
+  width:300px ;
+}
+.footer-2302 h2{
+ font-size: 35px;
+ margin: 10px 0;
+ color: white;
+ line-height: 2rem;
+}
+.footer-2302 p{
+  color: #eceaea;
+  line-height: 2rem;
+}
+.footer-23010 h2{
+  font-size: 35px; 
+  color: white;
+ line-height: 2rem;
+ margin:10px 0 ;
+ line-height: 2rem;
+}
+.footer-2305 a{
+text-decoration: none;
+color: #eceaea;
+line-height: 3rem;
+padding-left: 5px;
+}
+.fooet-2308{
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+.fooet-2308 i{
+  color: white;
+}
+.footer-2309 input{
+outline: none;
+border: none;
+padding: 10px;
+border-radius: 5px;
+}
+.footer-2309 button{
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: yellow;
+}
+.footer-2311 h2{
+ color: white;
+ font-size: 35px;
+ line-height: 2rem;
+}
+.fooet-2308{
+  margin-bottom: 2rem;
+}
+.about-us{
+  width: 100%;
+  height: 100%;
+} 
+.about-us-01{
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  font-size: 55px;
+  color: #fff;  
+}
+.about-us-01:hover{
+  color: #000;
+  cursor: pointer;
+}
+.about-us-0101{
+  margin: 0 3cm;
+}
+.about-us-0103{
+margin-top:2rem ;
+font-size: 35px;
+padding-bottom: 1rem;
+line-height: 2.5rem;
+}
+.about-us-0104{
+  line-height: 1.6rem;
+}
+.about-us-0105{
+margin-top: 2rem;
+}
+.about-us-0105 i{ 
+ line-height: 2rem;
+}
+.about-us-301{
+  margin: 0 3cm;
+}
+.about-us-302{
+  margin-top: 2rem;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.about-us-303 p{
+  font-size: 20px;
+  gap: 10px;
+}
+.about-us-303 a {
+text-decoration: none;
+color: blue;
+line-height: 1.5rem;
+}
+.about-us-304 a{
+  padding-left: 10px;
+}
+.about-us-401{
+  margin: 2rem 3cm;
+}
+.about-us-402 h2{
+font-size: 30px;
+}
+.about-us-402 p{
+  font-size: 17px;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+}
+.about-us-404 h2{
+margin-top: 2rem;
+font-size: 30px;
+}
+.about-us-404 p{
+line-height: 1.5rem;
+margin-top: 1.5rem;
+}
+.cleaning{
+  width: 100%;
+  height: 80vh;
+}
+.cleanging-201{
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 40px;
+  color: #000;
+}
+
+.cleaning-304{
+  width: 300px;
+}
+.cleaning-305 a{
+ text-decoration: none;
+ color: rgb(49, 49, 236);
+ padding: 5px;
+}
+.cleaning-303{
+  padding: 5px;  
+}
+.cleaning-301{
+  position: relative;
+}
+.cleaning-302{
+  margin: 2cm;  
+ display: grid;
+ grid-template-columns: repeat( 3,1fr);
+ grid-template-rows:repeat(2,1fr) ;
+ flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+  .ul-element-1104{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 10000;
+  }
+  .Deep-Cleaning-element-2213{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .Deep-Cleaning-element-2214 img{
+    width: 280px;
+  }
+  .Deep-Cleaning-element-2214 a p{
+    text-align: center;
+  }
+  .house-header-1107{    
+    display: flex;
+  }
+  .house-header-1108{
+    display: flex;
+  }
+.house-header-1106{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 2rem;
+}
+.house-header-1108{
+  padding: 8px 3cm;
+}
+.house-header-1107{
+  padding: 10px 3cm;
+}
+.house-header-1109{
+  padding: 8px 3cm;
+}
+.house-head-1102{
+  text-align: center;
+  margin-right: 2rem;
+}
+.contact-2001{
+  flex-direction: column; 
+  align-items: center;
+}
+.contact-us{
+  padding: 0;
+  background-color: none;
+}
+.cleaning-302{
+  flex-direction: column;
+}
+ 
+
+}
+
+ 
+
+
+
+ 
+
+
+
+
+
+

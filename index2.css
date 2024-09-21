@@ -1,0 +1,263 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.kitchen-102{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.kitchen-103{
+    position: absolute;
+    top:50%;
+    left: 40%;
+    font-size: 40px;
+    color: #fff;
+}
+.kitchen-202{
+    margin: 2cm 3cm;
+}
+.kitechen-204{
+    font-size: 30px;
+    color: rgb(2, 2, 75);
+    text-align: center;
+    line-height: 2rem;
+}
+.kitchen-205{
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
+}
+.kitchen-206{
+    margin: 2rem;
+    text-align: 30px;
+    color: rgb(2, 2, 75);
+    text-align: center;
+    line-height: 2rem;
+}
+.kitchen-207{
+    line-height: 1.5rem;
+}
+.kitchen-208{
+    margin: 2rem;
+    text-align: 30px;
+    color: rgb(2, 2, 75);
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: .5px;
+}
+.kitchen-209{
+    line-height: 1.5rem; 
+    letter-spacing: .5px;
+}
+.kitchen-210{
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    letter-spacing: .5px;
+}
+.kitchen-211{
+    margin: 1rem 0;
+    line-height: 1.5rem; 
+    letter-spacing: .5px;
+}
+.kitchen-301{
+    margin: 2cm 3cm;
+    font-size: 30px;
+    color: rgb(2, 2, 75);
+}
+.bedrom-002{
+    width: 100%;
+    height: 500px;
+}
+.bedrom-003{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    font-size: 40px;
+    color: #000;
+    letter-spacing: .4px;
+}
+.bedroom-102{
+    margin: 2cm;
+}
+.bedroom-104{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(2, 2, 75);
+    line-height: .4px;
+}
+.bedroom-105{
+    margin:2rem 0;
+    letter-spacing: .4px;
+    line-height: 1.5rem;
+}
+.bedroom-106{
+    letter-spacing: .4px;
+    line-height: 1.5rem; 
+}
+.bedroom-107{
+    margin: 2rem 0;
+    letter-spacing: .4px;
+    line-height: 1.5rem; 
+}
+.bedroom-108{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(2, 2, 75);
+    line-height: .4px;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+.bedroom-109{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: .4px;   
+
+}
+.bedrom-110{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    letter-spacing: .4px;  
+}
+.floor{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    color: #fff;
+    font-size: 40px;
+}
+.bedroom-106{
+   margin-top: 2rem; 
+}
+.office{
+    margin: 2rem;
+}
+.office-01{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(2, 2, 75);
+    letter-spacing: .4px;
+    line-height: 2rem;
+    padding-bottom:1rem ;
+}
+.office-02{
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 3rem;
+}
+.office-04,.office-05{
+    border: 1px solid #dddddd;    
+    padding: 10px;
+    text-align: cneter;
+    line-height: 2rem;
+    letter-spacing: .4px;
+    font-size: 20px;
+}
+.office-04{
+    text-align: center;
+    padding: 5px;
+}
+.Carpet{
+    margin: 2rem;
+}
+.contact-01{
+margin:3cm;
+
+}
+.contact-02{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+.contact-03{
+    padding: 3rem;
+    background-color: #f8f7f7;
+    box-shadow: 2px 5px 5px -5px -5px;
+    border-radius: 5px;
+}
+.contact-03 i{
+    font-size: 40px;
+    padding: 2rem;
+}
+.blog-01{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(2, 2, 75);
+    letter-spacing: .4px;
+    font-weight: 600;
+}
+.blog-03{
+    margin: 3rem 6cm;
+}
+.blog-03 h2{
+    font-size: 30px;
+    line-height: 2rem;
+    letter-spacing: .4px;
+    color: rgb(2, 2, 75);
+    margin-bottom: 2rem;
+}
+.blog-04{
+    letter-spacing: .4px;
+    line-height: 2rem;
+}
+.blog-05{
+    margin: 3rem 0;
+    font-size: 30px;
+    letter-spacing: .4px;
+}
+.blog-06{
+    letter-spacing: .4px;
+    line-height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    .kitchen-303{
+        width: 200px;
+        height: 200px;
+       padding-left: -3rem;
+    }
+    .sofa-411{
+        width: 400px;
+    }
+    .sofa-408{
+        width: 400px;
+    }
+    .sofa-409{
+        display: flex;
+        width: 400px;
+    }
+    .sofa-410{
+        width: 400px;
+    }
+
+    
+}
